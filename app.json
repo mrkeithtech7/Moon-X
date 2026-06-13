@@ -1,0 +1,59 @@
+{
+  "name": "MOON-X",
+  "description": "Multi Device WhatsApp Bot By Keith Tech. Session-based auth, dynamic commands, advanced message handling.",
+  "logo": "http://keith-cdn.zone.id/file/2j27id.png",
+  
+  "docs": "https://session.litewave.gleeze.com",
+  
+  "keywords": ["MOON-X", "whatsapp-bot", "multi-device", "nodejs"],
+  "success_url": "/",
+  "repository": "https://github.com/mrkeithtech7/Moon-X",
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your Moon-X Session ID. Required to connect to WhatsApp.",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number without + e.g. 26378xxxxxxx",
+      "required": true,
+      "value": ""
+    },
+    "PREFIXES": {
+      "description": "Bot command prefix e.g. . !,/,#  or .",
+      "required": false,
+      "value": "."
+    },
+    "COMMAND_MODE": {
+      "description": "Bot mode: public or private",
+      "required": false,
+      "value": "public"
+    },
+    "BOT_NAME": {
+      "description": "Put your bot name",
+      "required": false,
+      "value": ""
+    },
+    "BOT_OWNER": {
+      "description": "Owner name",
+      "required": false,
+      "value": ""
+    },
+    "TIME_ZONE": {
+      "description": "Timezone e.g. Africa/Harare",
+      "required": false,
+      "value": "Africa/Harare"
+
+    }
+  },
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}

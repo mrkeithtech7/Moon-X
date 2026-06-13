@@ -1,0 +1,17 @@
+node_modules/
+session/
+temp/
+tmp/
+*.log
+*.session
+bot/
+_payload.zip
+.extracted
+plugins/
+lib/
+assets/
+data/
+database/
+config.js
+database.js
+render.yaml
