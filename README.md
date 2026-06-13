@@ -16,9 +16,8 @@
 
 ---
 
-## 🚀 DEPLOYMENT PLATFORMS
+## DEPLOYMENT PLATFORMS 👇
 
-<p align="center">Deploy <strong>DAVE-X-ULTRA</strong> instantly on your preferred platform.</p>
 
 <div align="center">
   <table>
